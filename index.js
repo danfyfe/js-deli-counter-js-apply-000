@@ -1,7 +1,7 @@
 function takeANumber(currentLine, ticketNumber){
   
   currentLine.push(ticketNumber);
-  return `Welcome, ${newCustomer}. You are number ${currentLine.length} in line.`;
+  return `Welcome, ${ticketNumber}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(katzDeliLine){
