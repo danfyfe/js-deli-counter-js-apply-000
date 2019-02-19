@@ -6,7 +6,7 @@ function takeANumber(currentLine){
   currentLine.push(currentTicket);
   let outputString = `Welcome, ${currentTicket}. You are number ${currentLine.length} in line.`;
   currentTicket ++;
-  retrun outputString;
+  return outputString;
   
 }
 
