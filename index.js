@@ -1,6 +1,7 @@
 function takeANumber(currentLine, ticketNumber){
   var newTicketNumber = ticketNumber + 1;
   currentLine.push(ticketNumber);
+  
   return `Welcome, ${ticketNumber}. You are number ${currentLine.length} in line.`;
 }
 
