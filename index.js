@@ -1,8 +1,6 @@
 let currentTicket = 1
 
 function takeANumber(currentLine){
-  //var newTicketNumber = ticketNumber + 1;
-  
   currentLine.push(currentTicket);
   let outputString = `Welcome, ${currentTicket}. You are number ${currentLine.length} in line.`;
   currentTicket ++;
