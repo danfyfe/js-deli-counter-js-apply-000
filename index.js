@@ -4,7 +4,9 @@ function takeANumber(currentLine){
   //var newTicketNumber = ticketNumber + 1;
   
   currentLine.push(currentTicket);
-  let outputString = `Welcome, ${ticketNumber}. You are number ${currentLine.length} in line.`;
+  let outputString = `Welcome, ${currentTicket}. You are number ${currentLine.length} in line.`;
+  currentTicket ++;
+  retrun outputString;
   
 }
 
