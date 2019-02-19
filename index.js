@@ -1,5 +1,6 @@
-function takeANumber(currentLine, newCustomer){
-  currentLine.push(newCustomer);
+function takeANumber(currentLine, ticketNumber){
+  
+  currentLine.push(ticketNumber);
   return `Welcome, ${newCustomer}. You are number ${currentLine.length} in line.`;
 }
 
