@@ -1,10 +1,10 @@
-function takeANumber(currentLine, ticketNumber){
+let currentTicket = 1
+
+function takeANumber(currentLine){
   //var newTicketNumber = ticketNumber + 1;
-  function getNewTicket(){
-    
-  }
-  currentLine.push(ticketNumber);
-  return `Welcome, ${ticketNumber}. You are number ${currentLine.length} in line.`;
+  
+  currentLine.push(currentTicket);
+  let outputString = `Welcome, ${ticketNumber}. You are number ${currentLine.length} in line.`;
   
 }
 
