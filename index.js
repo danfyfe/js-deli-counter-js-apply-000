@@ -1,6 +1,6 @@
 function takeANumber(currentLine, ticketNumber){
   //var newTicketNumber = ticketNumber + 1;
-  function getNewTicket(ticketNumber){
+  function getNewTicket(){
     
   }
   currentLine.push(ticketNumber);
